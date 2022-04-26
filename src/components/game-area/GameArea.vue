@@ -51,10 +51,6 @@ export default {
     data() {
         return {
             areaSizePx: 0,
-            touchStartControl: {
-                x: 0,
-                y: 0,
-            },
         };
     },
     computed: {
@@ -82,9 +78,6 @@ export default {
         },
         setSizePx() {
             this.areaSizePx = this.getSizePx();
-        },
-        setTouchStartControl(newCoords) {
-            this.touchStartControl = newCoords;
         },
         resizeEventInit() {
             this.setSizePx();

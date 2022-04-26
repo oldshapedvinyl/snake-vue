@@ -94,6 +94,13 @@ export default {
         src: url("@src/assets/fonts/roboto.ttf") format("opentype");
     }
 
+    * {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
     .app-container {
         width: 100%;
         height: 100%;

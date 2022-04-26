@@ -14,7 +14,7 @@
 
         <div class="tool-panel__info info">
             <div class="info__panel score-panel">
-                {{ score }}
+                {{ state.game.currentScore }}
             </div>
         </div>
     </div>
@@ -28,25 +28,10 @@ export default {
     setup() {
         return { state: useState() };
     },
-    computed: {
-        isSettingsChanged() {
-            return this.state.game.isOptionsChanged;
-        },
-        score() {
-            return this.state.game.currentScore;
-        },
-    },
 };
 </script>
 
 <style scoped>
-    * {
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
     .tool-panel {
         display: flex;
         justify-content: space-between;
