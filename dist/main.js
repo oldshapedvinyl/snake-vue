@@ -115,7 +115,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  name: 'FoodBlock',\n  props: {\n    food: {\n      type: Object,\n      \"default\": function _default() {\n        return {\n          type: 'cherry'\n        };\n      }\n    }\n  }\n});\n\n//# sourceURL=webpack://snake/./src/components/game-area/FoodBlock.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B8%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  name: 'FoodBlock',\n  props: {\n    food: {\n      type: Object,\n      \"default\": function _default() {\n        return {\n          type: 'empty'\n        };\n      }\n    }\n  }\n});\n\n//# sourceURL=webpack://snake/./src/components/game-area/FoodBlock.vue?./node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B8%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -552,6 +552,16 @@ eval("module.exports = __webpack_require__.p + \"50e9384a3004586a794823af6c885b9
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"9c5c1e5dfa1368db7f157f6ad21c598c.png\";\n\n//# sourceURL=webpack://snake/./src/assets/sprites/food/cherry.png?");
+
+/***/ }),
+
+/***/ "./src/assets/sprites/food/empty.png":
+/*!*******************************************!*\
+  !*** ./src/assets/sprites/food/empty.png ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"813044b737c569b1b051633fc2435d82.png\";\n\n//# sourceURL=webpack://snake/./src/assets/sprites/food/empty.png?");
 
 /***/ }),
 
@@ -1152,7 +1162,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
   \*****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./apple.png\": \"./src/assets/sprites/food/apple.png\",\n\t\"./banana.png\": \"./src/assets/sprites/food/banana.png\",\n\t\"./cherry.png\": \"./src/assets/sprites/food/cherry.png\",\n\t\"./orange.png\": \"./src/assets/sprites/food/orange.png\",\n\t\"./pineapple.png\": \"./src/assets/sprites/food/pineapple.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/sprites/food sync recursive ^\\\\.\\\\/.*\\\\.png$\";\n\n//# sourceURL=webpack://snake/./src/assets/sprites/food/_sync_^\\.\\/.*\\.png$?");
+eval("var map = {\n\t\"./apple.png\": \"./src/assets/sprites/food/apple.png\",\n\t\"./banana.png\": \"./src/assets/sprites/food/banana.png\",\n\t\"./cherry.png\": \"./src/assets/sprites/food/cherry.png\",\n\t\"./empty.png\": \"./src/assets/sprites/food/empty.png\",\n\t\"./orange.png\": \"./src/assets/sprites/food/orange.png\",\n\t\"./pineapple.png\": \"./src/assets/sprites/food/pineapple.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/assets/sprites/food sync recursive ^\\\\.\\\\/.*\\\\.png$\";\n\n//# sourceURL=webpack://snake/./src/assets/sprites/food/_sync_^\\.\\/.*\\.png$?");
 
 /***/ }),
 

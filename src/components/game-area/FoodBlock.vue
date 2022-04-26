@@ -14,7 +14,7 @@ export default {
     props: {
         food: {
             type: Object,
-            default: () => ({ type: 'cherry' }),
+            default: () => ({ type: 'empty' }),
         },
     },
 }
